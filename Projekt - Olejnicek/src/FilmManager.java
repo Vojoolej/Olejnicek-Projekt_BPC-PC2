@@ -46,7 +46,7 @@ public class FilmManager {
             System.out.println("1. Hraný film");
             System.out.println("2. Animovaný film");
             int choice = pouzeCelaCisla(input);
-
+            input.nextLine();
         System.out.println("Zadejte název filmu:");
         String title = input.next();
 
@@ -55,7 +55,7 @@ public class FilmManager {
 
         System.out.println("Zadejte rok vydání:");
         int year =  pouzeCelaCisla(input);
-
+        input.nextLine();
 
         if (choice == 1) { // Hraný film
             ArrayList<String> actors = new ArrayList<>();
