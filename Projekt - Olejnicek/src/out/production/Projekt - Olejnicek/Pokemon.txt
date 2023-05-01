@@ -1,0 +1,6 @@
+Název: Pokemon
+Režisér: reziser2
+Rok vydání: 1990
+Animátoři: [animator1, animator2, animator3]
+Hodnocení diváků: [9]
+Doporučený věk: 12

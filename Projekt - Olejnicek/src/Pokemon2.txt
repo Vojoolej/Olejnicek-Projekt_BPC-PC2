@@ -1,0 +1,6 @@
+Název: Pokemon2
+Režisér: reziser002
+Rok vydání: 153
+Animátoři: [animator1, animator2]
+Hodnocení diváků: [2]
+Doporučený věk: 9
