@@ -123,11 +123,7 @@ public class AppRun {
                     db_conn.deleteMovie(scanner.nextLine());
                     db_conn.disconnectConn();
                     break;
-                case 13:
-
-
-
-                    break;
+                
                 default:System.out.println("Zadávejte pouze čísla od 1 do 11!");
                 break;
             }
