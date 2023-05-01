@@ -41,12 +41,16 @@ public class FilmManager {
     }
     public void addFilm() {
         Scanner input = new Scanner(System.in);
-
+int choice;
+        while (true) {
             System.out.println("Vyberte typ filmu:");
             System.out.println("1. Hraný film");
             System.out.println("2. Animovaný film");
-            int choice = pouzeCelaCisla(input);
+             choice = pouzeCelaCisla(input);
             input.nextLine();
+            if(choice <1||choice>2)System.out.println("Vyberte možnost 1, nebo 2:");
+            else break;
+        }
         System.out.println("Zadejte název filmu:");
         String title = input.next();
 
