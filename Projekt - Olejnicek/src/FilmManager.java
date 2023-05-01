@@ -306,7 +306,7 @@ public class FilmManager {
             String contributor = entry.getKey();
             ArrayList<String> movies = entry.getValue();
             if (movies.size() > 1) {
-                System.out.print(contributor + " se účastnil v: ");
+                System.out.print(contributor + " se účastní v: ");
                 for (String movie : movies) {
                     System.out.print(movie + ", ");
                     isTrue=true;
@@ -320,6 +320,7 @@ public class FilmManager {
         else System.out.println();
     }
     public void printMoviesWithActor(String name) {
+        System.out.println("Hraje v:");
         boolean found = false;
         for (Film film : filmList) {
             if (film instanceof Movie) {
