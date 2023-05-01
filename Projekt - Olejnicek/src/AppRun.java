@@ -64,7 +64,7 @@ public class AppRun {
             System.out.println("9 - Uložení filmu do souboru");
             System.out.println("10 - Načtení filmu ze souboru");
             System.out.println("11 - Konec programu");
-            int choice = scanner.nextInt();
+             int choice = pouzeCelaCisla(scanner);
             scanner.nextLine();
         
 
